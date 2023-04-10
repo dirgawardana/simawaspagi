@@ -1,0 +1,184 @@
+#service {
+  background-color: #fff;
+  height: 115vh;
+}
+.a{
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  top: 1400px;
+  left: 200px;
+}
+.a2{
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  top: 1420px;
+  left: 300px;
+}
+.peta{
+  position: absolute;
+  top: 1600px;
+  left: 490px;
+}
+.kotak{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  padding-right: 200px;
+  color: green;
+  font-size: 18px;
+  top: 1600px;
+  left: 12px;
+  background-color: white;
+  border-radius: 10px;
+}
+.kotak2{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  padding-right: 200px;
+  color: green;
+  font-size: 18px;
+  top: 1500px;
+  left: 990px;
+  background-color: white;
+  border-radius: 10px;
+}
+.kotak3{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  padding-right: 220px;
+  color: green;
+  font-size: 18px;
+  top: 1850px;
+  left: 990px;
+  background-color: white;
+  border-radius: 10px;
+}
+.kalimat{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  padding-right: 200px;
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  top: 1650px;
+  left: 12px;
+  width: 540px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.kalimat2{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  top: 1550px;
+  left: 990px;
+  width: 350px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.kalimat3{
+  display: block;
+  position: absolute;
+  padding: 8px;
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  top: 1900px;
+  left: 990px;
+  width: 350px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.uu{
+  position: absolute;
+  color: black;
+  font-size: 12px;
+  top: 2030px;
+  left: 1130px;
+}
+#service .wrapper {
+  width: clamp(300px, 100%, 1100px);
+  margin: 4rem auto;
+}
+#service .grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  padding: 4rem 0;
+}
+#service .card {
+  border: 1px solid #dedede;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 2.7rem 1.2rem;
+  color: #6c757d;
+}
+.padi{
+  position: absolute;
+  height: 800px;
+  width: 1349px;
+}
+.more {
+  color: #0e6cff !important;
+  font-size: 70% !important;
+}
+#service .icon {
+  color: #0e6cff !important;
+  font-size: 1.2rem;
+  text-align: left;
+  align-items: center;
+  border: 1px solid #333;
+  width: 20%;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 6px solid transparent;
+  background-color: #e9eff9; 
+  margin-bottom: 1rem;
+}
+#service .card:hover > .icon {
+  background-color: #005bea;
+  border-color: #005bea;
+  box-shadow: 0 0 0 7px rgb(0 91 234 / 15%);
+  color: #fff !important;
+}
+#service .grid1 a {
+  text-decoration: none;
+  font-size: 150%;
+  color: #212529;
+  margin: 2rem 0 !important;
+  padding: 1rem 0;
+}
+#service .card:hover > a {
+  color: #005bea;
+}
+#service .card:hover {
+  border-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  transition: all .5s;
+}
+@media screen and (max-width: 600px) {
+  #service {
+    height: auto;
+  }
+  #service .grid1 {
+    width:100%;
+    grid-template-columns: 1fr;
+  }
+  #service .card {
+    margin: 1.5rem !important; 
+  }
+  #service .icon {
+    font-size: 1.7rem;
+    padding: 10px 16px;
+  }
+}

@@ -1,0 +1,48 @@
+#pricing {
+  position: absolute;
+  top: 200vw;
+  width: 1349px;
+  background-color: #B7DEC4;
+  height: 91vh;
+}
+.diagram{
+  position: absolute;
+  top: 50px;
+  left: 800px;
+}
+.kata{
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  width: 700px;
+  color: black;
+}
+.kata2{
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  font-size: 18px;
+  width: 700px;
+  color: rgb(78, 73, 73);
+}
+.kata3{
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  width: 600px;
+  color: green;
+}
+@media screen and (max-width: 600px) {
+  #pricing {
+    height: auto;
+  }
+  #pricing #container {
+    width:90%;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
